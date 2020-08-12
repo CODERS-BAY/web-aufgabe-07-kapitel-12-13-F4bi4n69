@@ -1,0 +1,177 @@
+header {
+    text-align: center;
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    height: 65vh;
+    background: 
+    linear-gradient(rgba(199, 199, 199, 0), rgb(199, 199, 199)),
+    url(/web-aufgabe-07-kapitel-12-13-F4bi4n69/img/headernew.jpg);
+    background-position: center right;
+    /* background-attachment: fixed; */
+    padding: 0rem;
+    border-radius: 0.75rem;
+}
+
+h1 {
+    font-family: 'Lemonada', cursive;
+    text-shadow: 2px 2px white;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+nav a.aktuell {
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(199, 199, 199);
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
+}
+
+main {
+    width: 100%;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+div.start {
+    width: 40%;
+}
+
+iframe {
+    width: 100%;
+    box-shadow: #000000 5px 5px 20px;
+}
+
+table {
+    width: 90%;
+    padding-top: 15px;
+    border: 1px solid #000000;
+    border-collapse: collapse;
+    margin-bottom: 20rem;
+}
+
+th {
+    border: 1px solid #000000;
+    padding: 0.5rem;
+    background-color: #7085ac;
+    color: #ffffff;
+}
+td {
+    border: 1px solid #000000;
+    max-width: 15rem;
+    padding: 0.25rem;
+    text-align: center;
+    background-color: #858585;
+}
+
+
+
+main#kontakt {
+    background:
+    linear-gradient(rgb(199, 199, 199), rgba(255, 255, 255, 0)),
+    url(/web-aufgabe-07-kapitel-12-13-F4bi4n69/img/forest.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    max-width: 100%;
+}
+
+form.kontakt {
+    background-color: rgba(255, 255, 255, 0.582);
+    max-width: 35rem;
+    box-shadow: #000000 2px 2px 5px;
+    margin: auto;
+}
+
+form label {
+    padding-left: 15px;
+}
+form p {
+    padding-left: 15px;
+}
+
+div.liste {
+    padding-left: 8em;
+}
+
+#senden {
+    color: white;
+    background: green;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+    width: 10em;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    transition: background-color 1s, transform 1s, border-color 1s;
+}
+
+#senden:hover {
+
+    background-color: rgb(0, 100, 0);
+    transform: scale(1.1);
+    border-color: gold;
+}
+
+#reset {
+    color: #000000;
+    background: red;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    transition: background-color 1s, transform 1s, border-color 1s;
+
+}
+
+#reset:hover {
+    background-color: rgb(201, 0, 0);
+    transform: scale(1.1);
+    border-color: gold;
+}
+
+a:link {color: black;}
+a:visited {color: #303030;}
+a:hover {color: #ffffff; text-decoration: underline;}
+
+input[type="text"] {
+    background-color: #ff0000;
+}
+
+input[id~="zeit"] {
+    background-color: red;
+}
+
+input[id*="besuch"] {
+    background-color: red;
+}
+h1::before {
+    content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
+}
+
+h2::first-letter {
+    color: red;
+    font-family: 'Lemonada', cursive;
+    font-size: xx-large;
+}
+
+h1::after {
+    content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/nuclear-sign.png);
+}
+
+.test {
+    color: white;
+    list-style-image: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
+}
