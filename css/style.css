@@ -13,7 +13,7 @@ header {
 
 h1 {
     font-family: 'Lemonada', cursive;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px 5px rgb(94, 94, 94);
 }
 
 nav ul {
@@ -33,6 +33,11 @@ nav a.aktuell {
 body {
     background-color: rgb(199, 199, 199);
     font-family: 'Raleway', Arial, Helvetica, sans-serif;
+    font-size: 4;
+}
+
+h2 {
+    font-family: 'Raleway', Arial, Helvetica, sans-serif;
 }
 
 main {
@@ -46,6 +51,7 @@ section {
     width: 100%;
     display: flex;
     justify-content: space-around;
+    margin-bottom: 5rem;
 }
 
 div.start {
@@ -57,8 +63,15 @@ iframe {
     box-shadow: #000000 5px 5px 20px;
 }
 
-table {
+
+
+div.liste {
     width: 90%;
+    margin: auto;
+}
+
+table {
+    width: 100%;
     padding-top: 15px;
     border: 1px solid #000000;
     border-collapse: collapse;
@@ -81,6 +94,7 @@ td {
 
 
 
+
 main#kontakt {
     background:
     linear-gradient(rgb(199, 199, 199), rgba(255, 255, 255, 0)),
@@ -100,12 +114,9 @@ form.kontakt {
 form label {
     padding-left: 15px;
 }
+
 form p {
     padding-left: 15px;
-}
-
-div.liste {
-    padding-left: 8em;
 }
 
 #senden {
@@ -142,9 +153,9 @@ div.liste {
     border-color: gold;
 }
 
-a:link {color: black;}
-a:visited {color: #303030;}
-a:hover {color: #ffffff; text-decoration: underline;}
+a:link {color: black; text-shadow: 1px 1px 3px rgb(121, 121, 121);}
+a:visited {color: #000000; text-shadow: 1px 1px 3px rgb(121, 121, 121);}
+a:hover {color: #ffffff; text-decoration: underline; text-shadow: 1px 1px 2px black;}
 
 input[type="text"] {
     background-color: #ff0000;
@@ -158,7 +169,8 @@ input[id*="besuch"] {
     background-color: red;
 }
 h1::before {
-    content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
+    content: url(/web-aufgabe-07-kapitel-12-13-F4bi4n69/img/nuclear-sign.png);
+    padding-right: 15px;
 }
 
 h2::first-letter {
@@ -168,10 +180,11 @@ h2::first-letter {
 }
 
 h1::after {
-    content: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/nuclear-sign.png);
+    content: url(/web-aufgabe-07-kapitel-12-13-F4bi4n69/img/nuclear-sign.png);
+    padding-left: 15px;
 }
 
 .test {
     color: white;
-    list-style-image: url(/web-ubung-6-kapitel-10-11-F4bi4n69/img/virus.png);
+    list-style-image: url(/web-aufgabe-07-kapitel-12-13-F4bi4n69/img/virus.png);
 }
